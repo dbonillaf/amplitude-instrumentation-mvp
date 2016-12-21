@@ -31,5 +31,6 @@ node main.js 17ce7bf229e579ad9e7fca5f445e51cc
 
 ## How to manage the events tracked
 
-You can go to the User Activity tab in Amplitude and then check the data or generate a dashboard to analyze it.
+You can go to the User Activity tab in Amplitude and then check the data or generate a dashboard to analyze it:
+
 ![Amplitude User Activity](https://cloud.githubusercontent.com/assets/293330/21389492/5ca1d4e6-c782-11e6-8e60-0e2be5d329e0.jpg "Amplitude User Activity")
