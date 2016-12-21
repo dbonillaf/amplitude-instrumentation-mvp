@@ -1,6 +1,6 @@
 # Amplitude Instrumentation MVP
 
-[Amplitude](https://amplitude.com/ Amplitude) is a product analytics that enable everyone to understand your users behavior.
+[Amplitude](https://amplitude.com/ Amplitude) is a product analytics tool that enable everyone to understand your users behavior.
 
 You can track all the relevant events in your web/mobile app and then make better product decisions based on user insights.
 
@@ -26,3 +26,8 @@ node main.js 17ce7bf229e579ad9e7fca5f445e51cc
 * Each time you browse http://localhost:3000/whatever, the **'*updated*' event** is tracked.
 * Each 30s running, the **'*24h-run*' event** is tracked.
 * When you stop the app, using CTRL+C in the terminal, the **'*stopped*' event** is tracked. 
+
+## How to manage the events tracked
+
+You can go to the User Activity tab in Amplitude and then check the data or generate a dashboard to analyze it.
+![Ampltitude User Activity](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Ampltitude User Activity")
