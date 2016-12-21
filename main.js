@@ -4,8 +4,6 @@ var schedule = require('node-schedule');
 var Amplitude = require('amplitude')
 
 var app = express();
-//var amplitude = amplitude = new Amplitude('23ce7bf029e579ad9e7fca5f446e51cc');
-var amplitide;
 var user = 'danny';
 var message = 'Pekin';
 var flagfile = "flag.txt"
@@ -24,23 +22,24 @@ fs.stat(flagfile, function(err, stat) {
         // file does not exist
         fs.writeFile(flagfile, 'The app has been installed', function (err) {
               if (err) throw err;
+              var data = {
+                event_type: 'installed', // required
+                user_id: user, // only required if device id is not passed in
+                //device_id: 'some id', // only required if user id is not passed in
+                event_properties: {
+                  'time': new Date(),
+                  'CPU usage %' : '35',
+                  'IP Address' : '131.228.17.26'
+                },
+                user_properties: {
+                  'version_used' : '1.0',
+                  'IP Address' : '131.228.17.26'
+                }
+              };
+              amplitude.track(data);
+              console.log("Installed for the very first time!")
           });
-          var data = {
-            event_type: 'installed', // required
-            user_id: user, // only required if device id is not passed in
-            //device_id: 'some id', // only required if user id is not passed in
-            event_properties: {
-              'time': new Date(),
-              'CPU usage %' : '35',
-              'IP Address' : '131.228.17.26'
-            },
-            user_properties: {
-              'version_used' : '1.0',
-              'IP Address' : '131.228.17.26'
-            }
-          };
-          amplitude.track(data);
-        console.log("Installed for the very first time!")
+
     } else {
         console.log('Some other error: ', err.code);
     }
@@ -70,7 +69,7 @@ process.on('SIGINT', function () {
   }, 3000);
 });
 
-// TODO: Event '24h-Run'
+// Event '24h-Run'
 var rule = new schedule.RecurrenceRule();
 //rule.second = new schedule.Range(0, 10, 20, 30, 40, 50);
 rule.second = [0, 30];
