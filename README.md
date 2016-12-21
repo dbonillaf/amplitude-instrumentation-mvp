@@ -10,6 +10,8 @@ You can track all the relevant events in your web/mobile app and then make bette
 2. Create a Project
 3. Get your Project (API) Key within the *Settings/Projects* section (e.g. 17ce7bf229e579ad9e7fca5f445e51cc)
 
+![Amplitude Projects](https://cloud.githubusercontent.com/assets/293330/21389613/ebefdbb6-c782-11e6-9528-53819fc3bc09.jpg "Amplitude Projects")
+
 ## How to run the app
 
 Just run the app with the Project (API) Key as a param.
@@ -30,4 +32,4 @@ node main.js 17ce7bf229e579ad9e7fca5f445e51cc
 ## How to manage the events tracked
 
 You can go to the User Activity tab in Amplitude and then check the data or generate a dashboard to analyze it.
-![Ampltitude User Activity](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Ampltitude User Activity")
+![Amplitude User Activity](https://cloud.githubusercontent.com/assets/293330/21389492/5ca1d4e6-c782-11e6-8e60-0e2be5d329e0.jpg "Amplitude User Activity")
