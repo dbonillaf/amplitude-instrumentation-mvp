@@ -1,5 +1,5 @@
 {
-  "name": "amplitude-spike",
+  "name": "amplitude-instrumentation-mvp",
   "version": "1.0.0",
   "description": "a spike to test how to create and manage Amplitude events",
   "main": "main.js",
