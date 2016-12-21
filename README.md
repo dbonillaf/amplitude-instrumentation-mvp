@@ -37,7 +37,7 @@ You can go to the User Activity tab in Amplitude and then check the data or gene
 
 ## EXTRA BALL: Interesting Links
 
-[Amplitude JavaScript SDK](https://github.com/amplitude/Amplitude-Javascript)
-[Amplitude HTTP API](https://amplitude.zendesk.com/hc/en-us/articles/204771828-HTTP-API)
-[Amplitude HTTP API Wrapper for Node](https://www.npmjs.com/package/amplitude)
+* [Amplitude JavaScript SDK](https://github.com/amplitude/Amplitude-Javascript)
+* [Amplitude HTTP API](https://amplitude.zendesk.com/hc/en-us/articles/204771828-HTTP-API)
+* [Amplitude HTTP API Wrapper for Node](https://www.npmjs.com/package/amplitude)
 
