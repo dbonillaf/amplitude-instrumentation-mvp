@@ -1,6 +1,6 @@
 # Amplitude Instrumentation MVP
 
-[Amplitude](https://amplitude.com/ Amplitude) is a product analytics tool that enable everyone to understand your users behavior.
+[Amplitude](https://amplitude.com/) is a product analytics tool that enable everyone to understand your users behavior.
 
 You can track all the relevant events in your web/mobile app and then make better product decisions based on user insights.
 
