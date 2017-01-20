@@ -6,7 +6,7 @@ You can track all the relevant events in your web/mobile app and then make bette
 
 ## Prerequisites
 
-1. [Install node + npm](https://nodejs.org/en/ Node)
+1. [Install node + npm](https://nodejs.org/en/)
 2. Create a directory for the project (e.g. /amplitude-instrumentation)
 3. Download the code into the directory
 4. Look the section [How to run the app](#how-to-run-the-app)
